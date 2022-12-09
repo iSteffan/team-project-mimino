@@ -2,6 +2,24 @@ td {
   outline: 1px solid black;
 }
 
+.container {
+  width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+  }
+}
+
+.section-restaurant__menu {
+  background-color: #f0ecd6;
+}
+
 .menu__title {
   font-family: 'Times New Roman';
   font-weight: 700;
@@ -9,6 +27,9 @@ td {
   line-height: 1.16;
   text-transform: uppercase;
   color: #000000;
+
+  @media screen and (max-width: 1279px) {
+  }
 }
 
 .menu__category {
@@ -17,6 +38,11 @@ td {
   font-size: 20px;
   line-height: 1.15;
   color: #000000;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 24px;
+    line-height: 1.17;
+  }
 }
 
 .menu__dish {
@@ -27,6 +53,11 @@ td {
   letter-spacing: 0.02em;
 
   color: #000000;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .menu__portions {
@@ -47,6 +78,11 @@ td {
   letter-spacing: 0.02em;
 
   color: #000000;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .menu__description {
@@ -57,4 +93,9 @@ td {
   letter-spacing: 0.02em;
 
   color: #000000;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 10px;
+    line-height: 1.2;
+  }
 }
