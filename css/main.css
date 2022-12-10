@@ -45,7 +45,13 @@ img {
   background-color: #f0ecd6;
 }
 
+.menu__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 .menu__title {
+  margin-bottom: 32px;
   font-family: "Times New Roman";
   font-weight: 700;
   font-size: 32px;
@@ -54,6 +60,8 @@ img {
   color: #000000;
 }
 .menu__category {
+  padding-bottom: 16px;
+  text-align: left;
   font-family: "Times New Roman";
   font-weight: 700;
   font-size: 20px;
@@ -67,7 +75,12 @@ img {
   }
 }
 
+.menu__table--down {
+  margin-top: 16px;
+}
+
 .menu__dish {
+  width: 221px;
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 14px;
@@ -92,6 +105,8 @@ img {
 }
 
 .menu__price {
+  width: 62px;
+  text-align: right;
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 14px;
