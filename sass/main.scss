@@ -41,6 +41,14 @@ img {
 .section-restaurant__menu {
   padding: 32px 15px;
   background-color: #f0ecd6;
+
+  @media screen and (min-width: 1024px) {
+    padding: 58px 47px 40px 47px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 58px 85px 60px 85px;
+  }
 }
 
 .menu__table {
@@ -83,7 +91,7 @@ img {
 }
 
 .menu__dish {
-  width: 221px;
+  width: 190px;
   font-family: 'Montserrat';
   font-weight: 500;
   font-size: 14px;
@@ -104,12 +112,13 @@ img {
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
+  text-align: center;
 
   color: #000000;
 }
 
 .menu__price {
-  width: 62px;
+  width: 65px;
   text-align: right;
   font-family: 'Montserrat';
   font-weight: 700;
