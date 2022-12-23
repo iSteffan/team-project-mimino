@@ -41,9 +41,24 @@ img {
 .section-restaurant__menu {
   padding: 32px 15px;
   background-color: #f0ecd6;
+
+  @media screen and (min-width: 1024px) {
+    padding: 58px 47px 40px 47px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 58px 85px 60px 85px;
+  }
+}
+
+.menu__table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .menu__title {
+  margin-bottom: 32px;
+
   font-family: 'Times New Roman';
   font-weight: 700;
   font-size: 32px;
@@ -56,6 +71,9 @@ img {
 }
 
 .menu__category {
+  padding-bottom: 16px;
+
+  text-align: left;
   font-family: 'Times New Roman';
   font-weight: 700;
   font-size: 20px;
@@ -68,7 +86,12 @@ img {
   }
 }
 
+.menu__table--down {
+  margin-top: 16px;
+}
+
 .menu__dish {
+  width: 190px;
   font-family: 'Montserrat';
   font-weight: 500;
   font-size: 14px;
@@ -89,11 +112,14 @@ img {
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
+  text-align: center;
 
   color: #000000;
 }
 
 .menu__price {
+  width: 65px;
+  text-align: right;
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 14px;
